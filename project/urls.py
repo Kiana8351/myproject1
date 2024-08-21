@@ -5,4 +5,5 @@ import project
 urlpatterns = [
     path('',home_page),
     path('about',about_page),
+    path('contact',contact_page)
 ]
