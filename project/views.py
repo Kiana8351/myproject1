@@ -9,4 +9,5 @@ def contact_page(request):
     return render(request,'contact.html')
 
 def test_view(request):
-    return render(request,'test.html')
+    context = {'title':'test','body':'this is a test'}
+    return render(request,'test.html',context)
